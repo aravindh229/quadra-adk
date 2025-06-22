@@ -1,4 +1,3 @@
-# quadra-adk
 # QUADRA: The Strategic Co-Pilot for Product Teams
 
 > *"The most powerful insights aren't just delivered. They're discovered, reasoned, and orchestrated by intelligent systems."*  — QUADRA
@@ -17,11 +16,9 @@ In a world where user churn can break billion-dollar apps, most product teams st
 
 QUADRA is an intelligent, multi-agent product strategist built using the philosophy of Google’s Agent Development Kit (ADK). It simulates a full-stack product team: a data analyst, a behavioral researcher, a growth hacker, and a strategic product lead — each powered by a specialized AI agent.
 
-Imagine Sundar Pichai meets Steve Jobs meets Satya Nadella — each playing their part to help you understand *why* users churn and *what you should do about it*.
-
 ---
 
-## 🤖 Agent Architecture
+## 🧹 Agent Architecture
 
 ```plaintext
 +-------------------+        +----------------+        +----------------+
@@ -36,7 +33,7 @@ Imagine Sundar Pichai meets Steve Jobs meets Satya Nadella — each playing thei
 
 ---
 
-## 🧩 The 4 Agents of QUADRA
+## 🧹 The 4 Agents of QUADRA
 
 ### 1. **Insight Agent** — "The Data Brain"
 
@@ -108,13 +105,15 @@ python controller.py
 
 ---
 
-## ⚠️ Dataset Note
+## ⚠️ Dataset Note & Citation
 
 Due to file size, `mfp-diaries.tsv` (2GB+) is not stored on GitHub. Place it manually inside the `data/` folder. The path is already hardcoded to work with Google Drive:
 
 ```python
 '/content/drive/MyDrive/QUADRA/data/mfp-diaries.tsv'
 ```
+
+**Dataset Source:** [MyFitnessPal Dataset on Kaggle](https://www.kaggle.com/datasets/zvikinozadze/myfitnesspal-dataset) by Zvi Kinozadze
 
 ---
 
@@ -153,20 +152,23 @@ Due to file size, `mfp-diaries.tsv` (2GB+) is not stored on GitHub. Place it man
 ## 🏁 Submission Category
 
 **Category:** Data Analysis & Insights
-**Region:** Asia Pacific (India)
+**Region:** United States
 **Devpost:** [QUADRA Hackathon Page](https://googlecloudmultiagents.devpost.com/)
 
 ---
 
 ## ✨ Credits
 
-Built with purpose by \[Aravindh] — a product-thinker with a data backbone.
-Thank you Google & Devpost for making space for this experiment in human-AI collaboration.
+Created with care by **Aravindh**, a data driven product systems thinker with a drive to reimagine how product teams think and act.
+
+This project is a practical, fully functioning prototype of what AI-assisted product decision-making could look like when modular intelligence meets real user behavior.
+
+Special thanks to Kaggle for open data access, Google for the ADK vision, and Devpost for hosting this opportunity to build for real impact.
 
 ---
 
 ## 💬 Final Thought
 
-> *"If Steve Jobs designed the product vision, Sundar scaled the platform, and Satya built the infrastructure — QUADRA is the brain they would share."*
+> *"QUADRA is not a replacement for human intuition. It's the structured intelligence layer that empowers it."*
 
 ---
