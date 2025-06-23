@@ -145,7 +145,7 @@ Due to file size, `mfp-diaries.tsv` (2GB+) is not stored on GitHub. Place it man
 
 ## 🎥 Demo Video
 
-> \[Link to 3-min demo on YouTube or Loom] *(To be added)*
+Youtube (https://youtu.be/odhstclfpJs)
 
 ---
 
